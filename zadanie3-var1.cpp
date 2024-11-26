@@ -1,6 +1,6 @@
 #include <iostream>
 #include <numeric>
-#include "set.hpp"
+#include "structures/set.hpp"
 #include <algorithm>
 
 using namespace std;

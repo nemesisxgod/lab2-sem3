@@ -63,14 +63,6 @@ TreeNode* insert(TreeNode* root, int value) {
     return root;
 }
 
-// Обход дерева (инфиксный)
-void inorderTraversal(TreeNode* root) {
-    if (root == nullptr) return;
-    inorderTraversal(root->left);
-    cout << root->value << " ";
-    inorderTraversal(root->right);
-}
-
 int height_tree(TreeNode* node) {
     if (node == nullptr) {
         return 0;

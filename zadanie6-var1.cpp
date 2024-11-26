@@ -1,5 +1,5 @@
 #include <iostream>
-#include "hashtable.hpp"
+#include "structures/hashtable.hpp"
 #include <string>
 using namespace std;
 

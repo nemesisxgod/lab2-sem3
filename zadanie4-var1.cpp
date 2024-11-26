@@ -1,5 +1,5 @@
 #include <iostream>
-#include "array.hpp"
+#include "structures/array.hpp"
 #include <string>
 
 using namespace std;

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "stack.hpp"
+#include "structures/stack.hpp"
 
 using namespace std;
 
