@@ -64,8 +64,8 @@ int main() {
 
             if (canPartitionKSubsets(elements, size, k, target, 0, 0, included, subsets)) {
                 printSubsets(subsets, k);
-                delete[] elements;
-                return 0; // Завершаем, как только нашли решение
+
+                cout<<endl;
             }
         }
     }
